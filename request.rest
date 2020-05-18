@@ -1,0 +1,15 @@
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"tedi"
+}
+###
+
+GET http://localhost:3000/posts
+
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGVkaSIsImlhdCI6MTU4OTc2NDAxNn0.2IF8mGmVECTQYGQtqpu__RhScIfwR410DSvpI2HMFfU
+ 
